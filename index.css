@@ -1,0 +1,27 @@
+main {
+    background-color: gray;
+    text-align: center;
+    align-content: center;
+}
+
+#first {
+    font-size: 40px;
+    color: orange;
+}
+
+.second {
+    font-size: 25px;
+    color: black;
+}
+
+#input {
+    background-color: beige;
+}
+
+#enter {
+    background-color: darkorange;
+}
+
+#here {
+    list-style-type: none;
+}
