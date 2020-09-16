@@ -23,6 +23,15 @@ function createListElement() {
         // finished is true
         if (finished) {
             removeButton.appendChild(document.createTextNode("remove"));
+            removeButton.classList = "deleteButton";
+            li.appendChild(removeButton);
+
+            removeButton.addEventListener("click", function () {
+                this.parentElement.remove();
+            });
+        } else {
+            this.getElementsByClassName("deleteButton")[0].remove();
+            
         }
     })
 }
