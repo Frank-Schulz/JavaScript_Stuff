@@ -3,7 +3,7 @@ const input = document.getElementById("input");
 const ul = document.querySelector("ul");
 
 function inputLength() {
-    return input.nodeValue.length;
+    return input.value.length;
 }
 
 function createListElement() {
