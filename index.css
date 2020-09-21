@@ -1,8 +1,62 @@
-main {
-    background-color: gray;
-    text-align: center;
-    align-content: center;
+body {
+    margin: 0 auto;
+    padding: 10px;
 }
+
+ul {
+    list-style-type: none;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+
+
+#here li {
+    width: 10vw;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+button {
+    color: #fff;
+    background: green;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+body {
+    background: #f9f9f9;
+    background-size: cover;
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 200px;
+}
+
+.testingIt {
+    text-decoration-line: line-through;
+}
+
+.deleteButton {
+    background-color: red;
+    color: #fff;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.done {
+    text-decoration: line-through #ff3c3c;
+}
+
+
+
+
 
 #first {
     font-size: 40px;
@@ -20,16 +74,4 @@ main {
 
 #enter {
     background-color: darkorange;
-}
-
-#here {
-    list-style-type: none;
-}
-
-.deleteButton {
-
-}
-
-.done {
-    
 }
